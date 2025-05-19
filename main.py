@@ -166,9 +166,9 @@ def main():
             print(year)
             print("PEAK ELO")
             print(
-                f"{highest_driver.name if highest_driver is not None else "None"} -> {highest_elo}")
+                f"{highest_driver.name if highest_driver is not None else 'None'} -> {highest_elo}")
             print(
-                f"{highest_team.name if highest_team is not None else "None"} -> {highest_team_elo}")
+                f"{highest_team.name if highest_team is not None else 'None'} -> {highest_team_elo}")
 
             while True:
                 c = input("Driver [d] or Constructor [c]? ")
